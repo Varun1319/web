@@ -1,0 +1,27 @@
+button {
+  width: 50px;
+  padding: 20px;
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+button:hover {
+  background-color: grey;
+}
+#keys {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 10px;
+}
+#display {
+  padding: 20px;
+  background-color: beige;
+  color: black;
+  width: 25%;
+  margin: 20px;
+  text-align: left;
+  font-size: 30px;
+}
+.opr {
+  background-color: orange;
+}
